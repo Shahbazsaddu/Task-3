@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> the tribute page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .contener{
+            background-color: antiquewhite;
+            min-height: 100vh;
+            border: 10px solid green;
+
+        }
+
+        .content{
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .top_section{
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        .top_section h1{
+            font-size: 50px;
+            font-weight: bold;
+            color: #1d1e;
+            text-transform: uppercase;
+        }
+        .top_section h4{
+            text-align: end;
+            font-size: 30px;
+        }
+        .image_contener{
+            border-radius: 50%;
+            overflow: hidden;
+
+        }
+
+        .image_contener,img{
+            width: 300px;
+            height: 320px;
+        }
+        .about_section{
+            margin-top: 50px;
+        }
+        .about_section h2{
+            font-size: 60px;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        .about_section p{
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 1.5;
+        }
+        .biography_section{
+            margin: 50px 0px;
+            border: 2px solid green;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        .biography_section h3{
+            margin-bottom: 20px;
+        }
+        .biography_section ul{
+            margin-left: 40px;
+        }
+
+        .biography_section li{
+            margin-bottom: 20px;
+        }
+        footer{
+            margin: 50px 0px;
+        }
+        footer p{
+            text-align: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="contener">
+         <div class="content">
+            <section class="top_section">
+            
+                <div class="image_contener">
+                    <img src="dr br.jfif"alt="tribute image">
+                </div>
+                <div><h1>DR.BR.AMBEDKAR</h1>
+                    <h4>1891-1956</h4>
+                </div>
+            </section>
+            <section class="about_section">
+                <h2> </h2>
+                <p><b>Bhimrao Ramji Ambedkar (14 April 1891 – 6 December 1956)</b> was an Indian jurist, economist,     social reformer and political leader who headed the committee drafting the Constitution of India from the Constituent Assembly debates, served as Law and Justice minister in the first cabinet of Jawaharlal Nehru, and inspired the Dalit Buddhist movement after renouncing Hinduism.
+                    Dr Bhimrao Ramji Ambedkar, also known as Babasaheb Ambedkar, was a significant personality in Indian history. Understanding his contributions and importance in building our country’s history as a student is important. Therefore, you must also give your kids to write an essay on Dr BR Ambedkar in English for classes 1, 2 and 3 kids. This way, they will learn a lot about him and his contributions.</p>
+            </section>
+            <section class="biography_section">
+               <h3>Biography</h3>
+               <ul><li>The real name of Dr. Ambedkar was Bhimrao ramji sakpal.</li>
+                <li>Dr. Ambedkar is architect of Indian constitution.</li>
+                <li>People honerly call them “Babasaheb”.</li>
+                <li>Such a great student, lawyer, politician and economist born n 14 April 1891.</li>
+                <li>His father name is Ramji maloji sakpal as well as his mother name is bhimaji ramji sakpal.</li>
+                <li>From childhood babasaheb was brilliant student.</li>
+                <li>Babasaheb ambedkar completed his B.A. and M.A. from university of Mumbai.</li>
+                <li>They had completed barrister at law, Msc. in economics, Phd. In economies.</li>
+                <li>They had moved dalit into Buddisth in 1956.</li>
+                <li>Dr. Babasheb ambedkar was died on 6 December 1956.</li>
+            </ul>
+            </section>
+            <footer><p>Read more about DR.BR.Ambedkar on <a href="https://en.wikipedia.org/wiki/B._R._Ambedkar">wikipedia</a> </p></footer>
+         </div>
+    </div>
+</body>
+</html>
